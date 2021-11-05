@@ -6,7 +6,7 @@ namespace Simple
     {
         static void Main(string[] args)
         {
-            string data;
+            /*string data;
             Console.WriteLine("Enter number:");
             data = Console.ReadLine();
 
@@ -14,7 +14,22 @@ namespace Simple
             int a = 5;
 
             int result = b + a;
-            Console.WriteLine("Your result: " + result);
+            Console.WriteLine("Your result: " + result);*/
+
+            string str = "1afsdf";
+
+            int a;
+            bool result = int.TryParse(str, out a);
+
+            if (result)
+            {
+                Console.WriteLine(a);
+            }
+            else
+            {
+                Console.WriteLine("Error");
+            }
+
         }
     }
 }
