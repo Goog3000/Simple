@@ -10,7 +10,7 @@ namespace Simple
             Console.WriteLine("Enter first number:");
             data1 = Console.ReadLine();
 
-            double b = Convert.ToInt32(data1);
+            int b = Convert.ToInt32(data1);
 
             string data2;
             Console.WriteLine("Enter second number:");
@@ -20,20 +20,6 @@ namespace Simple
 
             double result = (b + a) / 2;
             Console.WriteLine("Your result: " + result);
-
-            /*string str = "1afsdf";
-
-            int a;
-            bool result = int.TryParse(str, out a);
-
-            if (result)
-            {
-                Console.WriteLine(a);
-            }
-            else
-            {
-                Console.WriteLine("Error");
-            }*/
 
         }
     }
