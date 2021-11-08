@@ -6,17 +6,17 @@ namespace Simple
     {
         static void Main(string[] args)
         {
-            string data1;
+            string firstN;
             Console.WriteLine("Enter first number:");
-            data1 = Console.ReadLine();
+            firstN = Console.ReadLine();
 
-            int b = Convert.ToInt32(data1);
+            double b = Convert.ToInt32(firstN);
 
-            string data2;
+            string secondN;
             Console.WriteLine("Enter second number:");
-            data2 = Console.ReadLine();
+            secondN = Console.ReadLine();
 
-            double a = Convert.ToInt32(data2);
+            double a = Convert.ToInt32(secondN);
 
             double result = (b + a) / 2;
             Console.WriteLine("Your result: " + result);
