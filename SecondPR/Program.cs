@@ -6,19 +6,13 @@ namespace SecondPR
     {
         static void Main(string[] args)
         {
-            string str = "1afsdf";
+            double UAHinPLZ = 6.58;
+            double PLZ;
+            Console.WriteLine("Enter how mach: ");
 
-            int a;
-            bool result = int.TryParse(str, out a);
+            PLZ = double.Parse(Console.ReadLine());
 
-            if (result)
-            {
-                Console.WriteLine(a);
-            }
-            else
-            {
-                Console.WriteLine("Error");
-            }
+            Console.WriteLine(PLZ + " PLZ in UAH = " + UAHinPLZ*PLZ);
         }
     }
 }
