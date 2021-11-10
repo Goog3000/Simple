@@ -6,19 +6,17 @@ namespace Operators
     {
         static void Main(string[] args)
         {
-            int a = 5;
-            int b = 6;
+            int a;
 
-            bool c = false;
-            bool d = true;
+            a = int.Parse(Console.ReadLine());
 
-            if (a == b)
+            if (a % 2==0)
             {
-                Console.WriteLine(c);
+                Console.WriteLine("En even number");
             }
-            else if(a!=b) 
+            else
             {
-                Console.WriteLine(d);
+                Console.WriteLine("Not even number");
             }
         }
     }
