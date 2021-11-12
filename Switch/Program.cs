@@ -12,10 +12,14 @@ namespace Switch
             {
                 case 1:
                 case 2:
-                    Console.WriteLine("You enter number: 1 or 2");
+                    {
+                        Console.WriteLine("You enter number: 1 or 2");
+                    }
                     break;
                 default:
-                    Console.WriteLine("You enter enother number");
+                    {
+                        Console.WriteLine("You enter enother number");
+                    }
                     break;
             }
         }
