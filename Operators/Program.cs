@@ -10,7 +10,7 @@ namespace Operators
 
             a = int.Parse(Console.ReadLine());
 
-            if (a % 2==0)
+            if (a % 2 == 0)
             {
                 Console.WriteLine("En even number");
             }
