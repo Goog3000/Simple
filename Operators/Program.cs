@@ -6,9 +6,7 @@ namespace Operators
     {
         static void Main(string[] args)
         {
-            int a;
-
-            a = int.Parse(Console.ReadLine());
+            int a = int.Parse(Console.ReadLine());
 
             if (a % 2 == 0)
             {
