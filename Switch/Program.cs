@@ -6,6 +6,7 @@ namespace Switch
     {
         static void Main(string[] args)
         {
+            Console.Write("Enter value: ");
             int a = int.Parse(Console.ReadLine());
 
             switch (a)
